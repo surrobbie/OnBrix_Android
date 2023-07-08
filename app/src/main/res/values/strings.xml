@@ -1,0 +1,21 @@
+<resources>
+    <string name="facebook_app_id">1115810445753960</string>
+    <string name="fb_login_protocol_scheme">fb1115810445753960</string>
+    <string name="facebook_client_token">2f4c85d79aa583ce996e38eb4d336d8f</string>
+
+    <string name="app_name">온브릭스</string>
+
+    <string name="default_notification_channel_id">OnBrix-Channel-Id</string>
+    <string name="default_notification_channel_name">OnBrix-Channel-Name</string>
+
+    <string name="ssl_error_message">이 사이트의 보안 인증서는 신뢰하는 보안 인증서가 아닙니다. 계속하시겠습니까?</string>
+    <string name="download_file">해당 파일을 다운로드하시겠습니까?</string>
+    <string name="should_show_request_permission_rationale">권한 설정을 거부하여 설정에서 해당 권한을 설정해야합니다. 권한을 다시 설정 하시겠습니까?</string>
+    <string name="pick_image">사진 선택</string>
+
+    <string name="should_show_request_update_rationale">더 좋아진 온브릭스를 사용하기 위해서는 새로운 버전으로 업데이트가 필요합니다.</string>
+
+    <string name="yes">네</string>
+    <string name="no">아니오</string>
+
+</resources>

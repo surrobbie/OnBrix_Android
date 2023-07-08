@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "734212842168",
+    "project_id": "onbrix",
+    "storage_bucket": "onbrix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734212842168:android:4128302c358c9d920b4a4d",
+        "android_client_info": {
+          "package_name": "com.onbrix.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734212842168-62fugu2sq2u8rcf8ukkmucfh92avnqgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5wiE3jNU-aWAgnhDa81zP-2mEEQ9h3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734212842168-62fugu2sq2u8rcf8ukkmucfh92avnqgt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "734212842168-8jaspdcchqavqjrqo768ujej1qjm5tna.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ios.onbrix"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

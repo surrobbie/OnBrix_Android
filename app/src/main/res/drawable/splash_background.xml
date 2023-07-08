@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#D6E96D" /> // CHANGE THIS COLOR
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/onbrix_logo" android:gravity="center" android:width="192dp" android:height="192dp" />-->
+</layer-list>
