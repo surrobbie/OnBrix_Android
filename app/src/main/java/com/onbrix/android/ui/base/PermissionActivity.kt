@@ -7,6 +7,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.onbrix.android.BuildConfig
@@ -22,6 +23,7 @@ open class PermissionActivity: AppCompatActivity() {
         val APPLICATION_DETAILS_SETTINGS = 1000
     }
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     val permissions_13 = arrayOf(Manifest.permission.CAMERA, Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.POST_NOTIFICATIONS)
     val permissions = arrayOf(Manifest.permission.CAMERA)
 
@@ -55,7 +57,7 @@ open class PermissionActivity: AppCompatActivity() {
         val dlgBuilder = AlertDialog.Builder(this)
         dlgBuilder.setMessage(R.string.should_show_request_permission_rationale)
         dlgBuilder.setCancelable(false)
-        dlgBuilder.setPositiveButton(R.string.yes) { dialog, which -> navigatePermissionSetting() }
+        dlgBuilder.setPositiveButton(R.string.yes) { _, _ -> navigatePermissionSetting() }
         dlgBuilder.create().show()
     }
 
